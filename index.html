@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foodie Fogg. Viajes gastronómicos alrededor del mundo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Menú hamburguesa -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/my-scripts.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <!-- Inicio del header -->
+        <header>
+            <a href="index.html">
+                <img class="logo" src="img/logo-foodie-fogg.svg" alt="foodie fogg logo" title="foodie fogg logo">
+            </a>
+
+            <!-- Botón Menú Desplegable para dispositivos móviles -->
+            <div class="menu_bar">
+                <a  href="#" class="bt-menu"><img src="img/menu-icon.svg" alt="menu-icon"></a>
+            </div>
+    
+            <!-- Menú para dispositivos Desktop -->
+            <nav>
+                <ul>
+                    <li><a href="#">Viajes</a></li>
+                    <li><a href="#">Sobre Foodie Fogg</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    </ul>
+            </nav>
+
+        </header>
+
+        <!-- Inicio del main -->
+        <main>
+            <h1>Alrededor del mundo, Alrededor de una mesa</h1>
+            <!-- Imagen hero -->
+            <div class="hero-image">
+               <h3>¿Que te apetece comer?</h3>
+               <div class="hero-search">
+                    <input class="hero-search-text" type="text" name="búsqueda viajes" value="Pasta, cocina japonesa, marisco…">
+                    <img src="img/search-icon.svg" alt="search" title="search">              
+                    <!-- <div class="hero-search-text">Pasta, cocina japonesa, marisco…</div> -->
+                    <!-- <div class="hero-search-icon"><img src="img/search-icon.svg" alt="search" title="search"></div> -->
+               </div>
+            </div>
+            <!-- <h1>Alrededor del mundo, Alrededor de una mesa</h1> -->
+
+            <!-- <div class="hero-image">
+                <h3>¿Que te apetece comer?</h3>
+                <input class="hero-search" type="text" placeholder="Pasta, cocina japonesa, marisco…">
+                <img src="img/search-icon.svg" alt="search" title="search">
+                </input>                      
+            </div> -->
+
+            <section>
+                <h2>Viajes gastronómicos que incluyen</h2>
+                <div class="home-icons">
+                    <img src="img/restaurants-icon.svg" alt="reservas en restaurantes" title="reservas en restaurantes">
+                    <img src="img/flights-icon.svg" alt="vuelos" title="vuelos">
+                    <img src="img/hotels-icon.svg" alt="reservas en hoteles" title="reservas en hoteles">
+                </div>
+                <p class="thick-text-highlight">Reservas en los <span>restaurantes</span> más auténticos, seleccionados por expertos locales, <span>vuelos</span>, <span>hoteles</span> y recomendaciones para disfrutar del destino que elijas.</p>
+
+
+                <!-- Enlace sección viajes -->
+                <a class="links-navigation" href="viajes.html"> <span>Más info sobre Foodie Fogg </span>
+                    <img src="img/arrow-right.svg" alt="flecha-ver-mas">
+                </a>
+
+            </section>
+
+            <section class="viajes">
+                <h3>Destinos recomendados</h3>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="img/image-home.jpg" alt="foto" title="foto">
+                        <p class="card-title">Puglia, Italia</p>
+                        <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
+                        <p class="card-date"> Desembre 2019 | 4 días</p>
+                        <div class="card-price">
+                            <p class="card-desde">Desde</p>
+                            <button class="card-button">1500&euro; 	&gt;</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/image-home.jpg" alt="foto" title="foto">
+                        <p class="card-title">Puglia, Italia</p>
+                        <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
+                        <p class="card-date"> Desembre 2019 | 4 días</p>
+                        <div class="card-price">
+                            <p class="card-desde">Desde</p>
+                            <button class="card-button">1500&euro; 	&gt;</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img src="img/image-home.jpg" alt="foto" title="foto">
+                            <p class="card-title">Puglia, Italia</p>
+                            <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
+                            <p class="card-date"> Desembre 2019 | 4 días</p>
+                            <div class="card-price">
+                                <p class="card-desde">Desde</p>
+                                <button class="card-button">1500&euro; 	&gt;</button>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+
+
+
+        </main>
+
+        <!-- Inicio del footer -->
+        <footer>
+            <ul>                
+                <li>Síguenos</li>
+                <li><a href="https://twitter.com/@foodiefogg" target="_blank"><img src="img/twitter-icon.svg" alt="twitter icon" tittle="twitter icon"></a></li>
+
+                <li><a href="https://www.instagram.com/foodiefogg" target="_blank"><img src="img/instagram-icon.svg" alt="instagram icon" tittle="instagrama icon"></a></li>
+                
+                <li><a href="https://www.facebook.com/foodie.fogg" target="_blank"><img src="img/facebook-icon.svg" alt="facebook icon" tittle="facebook icon"></a></li>
+            </ul>
+            <p class="copyright">&copy; 2019 Foodie Fogg. Todos los derechos reservados.</p>
+            
+        </footer>
+
+
+    </div>
+    
+</body>
+</html>
