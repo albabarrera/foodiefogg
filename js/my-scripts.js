@@ -8,7 +8,7 @@ function menu(){
  
 		if(contador == 1){
 			$('nav').animate({
-				left: '60%'
+				left: '50%'
 			});
 			contador = 0;
 		} else {

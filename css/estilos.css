@@ -104,6 +104,15 @@ h3{
     background-color: #fff;
     align-items: center;
 }
+::placeholder {
+    color: #003D33;
+  }
+
+  input:focus, select:focus, textarea:focus {
+  outline:none;
+}
+  
+  
 
 .hero-search-text{
     width: 85%;
@@ -334,7 +343,7 @@ footer img{
  /* Media Queries para el menú responsive para móvil (Podemos cambiar los 600px a la medida que queramos */
  @media screen and (max-width:600px ) {
 	header nav {
-		width: 40%;
+		width: 100%;
 		height: 100%;
 		left: 100%;
 		margin: 0;
