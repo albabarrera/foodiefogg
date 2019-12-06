@@ -43,23 +43,16 @@
             <h1>Alrededor del mundo, alrededor de una mesa</h1>
             <!-- Imagen hero -->
             <div class="hero-image">
-               <h3>¿Que te apetece comer?</h3>
                <div class="hero-search">
-                    <input class="hero-search-text" type="text" name="búsqueda viajes" placeholder="Pasta, cocina japonesa, marisco…">
-                    <img src="img/search-icon.svg" alt="search" title="search">              
-                    <!-- <div class="hero-search-text">Pasta, cocina japonesa, marisco…</div> -->
-                    <!-- <div class="hero-search-icon"><img src="img/search-icon.svg" alt="search" title="search"></div> -->
+                   <h3>¿Que te apetece comer?</h3>
+                   <div class="hero-textbox">
+                        <input class="hero-search-text" type="text" name="búsqueda viajes" placeholder="Pasta, cocina japonesa, marisco…">
+                        <img src="img/search-icon.svg" alt="search" title="search"> 
+                    </div>                                 
                </div>
             </div>
-            <!-- <h1>Alrededor del mundo, Alrededor de una mesa</h1> -->
 
-            <!-- <div class="hero-image">
-                <h3>¿Que te apetece comer?</h3>
-                <input class="hero-search" type="text" placeholder="Pasta, cocina japonesa, marisco…">
-                <img src="img/search-icon.svg" alt="search" title="search">
-                </input>                      
-            </div> -->
-
+            <!-- Sección home con iconos y descripción servicios -->
             <section>
                 <h2>Viajes gastronómicos que incluyen</h2>
                 <div class="home-icons">
@@ -67,21 +60,24 @@
                     <img src="img/flights-icon.svg" alt="vuelos" title="vuelos">
                     <img src="img/hotels-icon.svg" alt="reservas en hoteles" title="reservas en hoteles">
                 </div>
-                <p class="thick-text-highlight">Reservas en los <span>restaurantes</span> más auténticos, seleccionados por expertos locales, <span>vuelos</span>, <span>hoteles</span> y recomendaciones para disfrutar del destino que elijas.</p>
+                <p class="thick-highlight-text">Reservas en los <span>restaurantes</span> más auténticos, seleccionados por expertos locales, <span>vuelos</span>, <span>hoteles</span> y recomendaciones para disfrutar del destino que elijas.</p>
 
 
-                <!-- Enlace sección viajes -->
-                <a class="links-navigation" href="viajes.html"> <span>Más info sobre Foodie Fogg </span>
+                <!-- Enlace con la página "Sobre Foodie Fogg" -->
+                <a class="links-navigation" href="#"> <span>Más info sobre Foodie Fogg </span>
                     <img src="img/arrow-right.svg" alt="flecha-ver-mas">
                 </a>
 
             </section>
 
+            <!-- Sección "Viajes recomendados" -->
             <section class="viajes">
                 <h3>Destinos recomendados</h3>
                 <div class="cards-container">
                     <div class="card">
-                        <img src="img/image-home.jpg" alt="foto" title="foto">
+                        <div class="card-img-wrapper">
+                            <img src="img/image-home.jpg" alt="foto" title="foto">
+                        </div>
                         <p class="card-title">Puglia, Italia</p>
                         <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
                         <p class="card-date"> Desembre 2019 | 4 días</p>
@@ -91,7 +87,9 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="img/image-home.jpg" alt="foto" title="foto">
+                        <div class="card-img-wrapper">
+                            <img src="img/image-home.jpg" alt="foto" title="foto">
+                        </div>
                         <p class="card-title">Puglia, Italia</p>
                         <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
                         <p class="card-date"> Desembre 2019 | 4 días</p>
@@ -101,69 +99,77 @@
                         </div>
                     </div>
                     <div class="card">
+                        <div class="card-img-wrapper">
                             <img src="img/image-home.jpg" alt="foto" title="foto">
-                            <p class="card-title">Puglia, Italia</p>
-                            <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
-                            <p class="card-date"> Desembre 2019 | 4 días</p>
-                            <div class="card-price">
-                                <p class="card-desde">Desde</p>
-                                <button class="card-button">1500&euro; 	&gt;</button>
-                            </div>
                         </div>
-                        <div class="card">
+                        <p class="card-title">Puglia, Italia</p>
+                        <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
+                        <p class="card-date"> Desembre 2019 | 4 días</p>
+                        <div class="card-price">
+                            <p class="card-desde">Desde</p>
+                            <button class="card-button">1500&euro; 	&gt;</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
                             <img src="img/image-home.jpg" alt="foto" title="foto">
-                            <p class="card-title">Puglia, Italia</p>
-                            <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
-                            <p class="card-date"> Desembre 2019 | 4 días</p>
-                            <div class="card-price">
-                                <p class="card-desde">Desde</p>
-                                <button class="card-button">1500&euro; 	&gt;</button>
-                            </div>
                         </div>
-                        <div class="card">
+                        <p class="card-title">Puglia, Italia</p>
+                        <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
+                        <p class="card-date"> Desembre 2019 | 4 días</p>
+                        <div class="card-price">
+                            <p class="card-desde">Desde</p>
+                            <button class="card-button">1500&euro; 	&gt;</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
                             <img src="img/image-home.jpg" alt="foto" title="foto">
-                            <p class="card-title">Puglia, Italia</p>
-                            <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
-                            <p class="card-date"> Desembre 2019 | 4 días</p>
-                            <div class="card-price">
-                                <p class="card-desde">Desde</p>
-                                <button class="card-button">1500&euro; 	&gt;</button>
-                            </div>
                         </div>
-                        <div class="card">
-                                <img src="img/image-home.jpg" alt="foto" title="foto">
-                                <p class="card-title">Puglia, Italia</p>
-                                <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
-                                <p class="card-date"> Desembre 2019 | 4 días</p>
-                                <div class="card-price">
-                                    <p class="card-desde">Desde</p>
-                                    <button class="card-button">1500&euro; 	&gt;</button>
-                                </div>
-                            </div>
+                        <p class="card-title">Puglia, Italia</p>
+                        <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
+                        <p class="card-date"> Desembre 2019 | 4 días</p>
+                        <div class="card-price">
+                            <p class="card-desde">Desde</p>
+                            <button class="card-button">1500&euro; 	&gt;</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="img/image-home.jpg" alt="foto" title="foto">
+                        </div>
+                        <p class="card-title">Puglia, Italia</p>
+                        <p class="card-subtitle">Pasta casera y <span class="italic">sapore di mare</span></p>
+                        <p class="card-date"> Desembre 2019 | 4 días</p>
+                        <div class="card-price">
+                            <p class="card-desde">Desde</p>
+                            <button class="card-button">1500&euro; 	&gt;</button>
+                        </div>
+                    </div>
                 </div>
+                <!-- Enlace con la página "Viajes" -->
+                <a class="links-navigation" href="#"> <span>Ver todos los viajes </span>
+                    <img src="img/arrow-right.svg" alt="flecha-ver-mas">
+                </a>
+                
             </section>
-
-
-
-
         </main>
 
         <!-- Inicio del footer -->
         <footer>
-            <ul>                
-                <li>Síguenos</li>
-                <li><a href="https://twitter.com/@foodiefogg" target="_blank"><img src="img/twitter-icon.svg" alt="twitter icon" tittle="twitter icon"></a></li>
+            <nav>
+                <ul>                
+                    <li>Síguenos</li>
+                    <li><a href="https://twitter.com/@foodiefogg" target="_blank"><img src="img/twitter-icon.svg" alt="twitter icon" tittle="twitter icon"></a></li>
 
-                <li><a href="https://www.instagram.com/foodiefogg" target="_blank"><img src="img/instagram-icon.svg" alt="instagram icon" tittle="instagrama icon"></a></li>
-                
-                <li><a href="https://www.facebook.com/foodie.fogg" target="_blank"><img src="img/facebook-icon.svg" alt="facebook icon" tittle="facebook icon"></a></li>
-            </ul>
-            <p class="copyright">&copy; 2019 Foodie Fogg. Todos los derechos reservados.</p>
-            
+                    <li><a href="https://www.instagram.com/foodiefogg" target="_blank"><img src="img/instagram-icon.svg" alt="instagram icon" tittle="instagrama icon"></a></li>
+                    
+                    <li><a href="https://www.facebook.com/foodie.fogg" target="_blank"><img src="img/facebook-icon.svg" alt="facebook icon" tittle="facebook icon"></a></li>
+                </ul>
+                <p class="copyright">&copy; 2019 Foodie Fogg. Todos los derechos reservados.</p>
+            </nav>
         </footer>
 
-
     </div>
-    
 </body>
 </html>

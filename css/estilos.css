@@ -4,381 +4,425 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Playfair Display', serif; */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    height: 100%;
-    font-size: 16px;
-    color: #003D33;
-    background-color: #fff;
-}
+/* Estilos body */
+    body{
+        height: 100%;
+        font-size: 16px;
+        color: #003D33;
+        background-color: #fff;
+    }
 
-body, button {
-    font-family: 'Open Sans', sans-serif;   
-}
+    body, button {
+        font-family: 'Open Sans', sans-serif;   
+    }
 
-header{
-    width: 100%;
-    /* display: flex;
-    align-items: center; */
-}
+/* Estilos header y nav */
 
-header nav {
-	text-align: right;
-}
-.menu_bar {
-	display: none;
-}
- 
-header nav ul li {
-  display: inline-block;
-}
- 
-header nav ul li a {
-	color: #00695C;
-	padding: 15px;
-	display: block;
-	text-decoration: none;
-}
- 
-header nav ul li a:hover {
-	background: rgba(0,152,137,0.1);
-}
+    header {
+        width: 100%;
+    }
 
-main{
-    clear: both;
-}
+    .logo {
+        width: 170px;
+        margin: 10px;
+        position: absolute;
+    }
 
-.logo {
-    width: 170px;
-    margin: 10px;
-    position: absolute;
-}
+    header nav {
+        text-align: right;
+    }
 
-h1, h2 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    color: #003D33;
-
-}
-
-h1{
-    font-weight: 700;
-    font-size: 1.875rem;
-    Padding: 10px;
-    background-color: rgba(0,152,137,0.1);
-
-}
-
-/* Estilos hero image de la home */
-
-.hero-image{
-    background: url('../img/image-home.jpg') no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
-}
-
-h3{
+    .menu_bar {
+        display: none;
+    }
+    
+    header nav ul li {
     display: inline-block;
-    /* margin-top: 20%; */
-    padding: 10px 10px 10px 20px;
-    width: 70%;
-    background-color: #00695C;
-    color: white;
-    font-size: 1.250rem;
-}
+    }
+    
+    header nav ul li a {
+        color: #00695C;
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    header nav ul li a:hover {
+        background: rgba(0,152,137,0.1);
+    }
 
-.hero-image h3 {
-    margin-top: 30vh;
-}
+/* Estilos main */
+    main {
+        clear: both;
+    }
 
-.hero-search{
-    margin: 10px auto;
-    padding: 10px;
-    width: 80%;
-    border: 1px solid #00695C;
-    background-color: #fff;
-    align-items: center;
-}
-::placeholder {
-    color: #003D33;
-  }
+    h1, h2 {
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        color: #003D33;
 
-  input:focus, select:focus, textarea:focus {
-  outline:none;
-}
-  
-  
+    }
 
-.hero-search-text{
-    width: 85%;
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    color: #00695C;
-    border: none;
-    margin-left: 2%;
+    h1{
+        font-weight: 700;
+        font-size: 1.875rem;
+        Padding: 10px;
+        background-color: rgba(0,152,137,0.1);
+    }
 
-    /* white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;   */
-}
+/* Estilos Hero-image de la home y búsqueda */
 
-.hero-search img{
-    /* margin-left: 10px; */
-    height: 1rem;
-    float: right;
-    margin-right: 2%;
-}
+    .hero-image {
+        background: url('../img/julien-sarazin-n3mK4n_nF7g-unsplash.jpg') no-repeat center center;
+        background-size: 200%;
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
 
-/* .hero-search img{
-    margin: 0 5px;
-    text-align: right;
-    display: inline;
-} */
+    .hero-search {
+        position: absolute;
+        max-width: 600px;
+        bottom: 0px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    h3 {
+        display: inline-block;
+        padding: 10px 10px 10px 20px;
+        width: 70%;
+        background-color: #00695C;
+        color: white;
+        font-size: 1.250rem;
+    }
+
+    .hero-textbox {
+        margin: 10px auto;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+        width: 80%;
+        border: 1px solid #00695C;
+        background-color: #fff;
+        position: relative;
+    }
+
+    ::placeholder {
+        color: #00695C;
+    }
+
+    input:focus, select:focus, textarea:focus {
+        outline:none;
+    }
+    
+    .hero-search-text {
+        width: 85%;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #00695C;
+        border: none;
+    }
+
+    .hero-textbox img {
+        height: 1.2rem;
+        position: absolute;
+        right: 20px;
+    }
 
 /* Sección home con iconos y descripción servicios */
 
-section{
-    margin-top: 5%;
-}
+    section {
+        margin-top: 30px;
+    }
 
-h2{
-    font-weight: 700;
-    font-size: 1.500rem;
-    /* display: inline-block; */
-}
+    h2 {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
 
-.home-icons{
-    text-align: center;
-    max-width: 600px;
-    margin: 6% auto
-    /* padding: 20px;
-    background-color: #e393a4;
-    display: flex;
-    justify-content: center; */
+    .home-icons {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
 
-}
+        /* display: flex;
+        align-content: space-between;
+        max-width: 600px;
+        margin: 0 auto; */
+    }
 
-.home-icons img{
-    width: 20%;
-    display: inline-flex;
-    margin-right: 5%; 
-    /* margin: 20px;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
-    border: 1px solid #000;
-    font-size: 3em; */
-}
+    .home-icons img {
+        width: 20%;
+        max-width: 170px;
+        display: inline-flex;
+        margin: 10px; 
+    }
 
-.thick-text-highlight{
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    line-height: 1.8;
+    .thick-highlight-text {
+        width: 90%;
+        max-width: 750px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        line-height: 1.8;
 
-}
+    }
 
-/* thick highlight */
+    /* Estilo subrayado grueso */
 
-/* background: linear-gradient(180deg, #FFC0CB 80%, #00FFFF 20%); */
-
-
-.thick-text-highlight span{
-    background-color: rgba(255,134,124,0.6);
-    background: linear-gradient(180deg, #fff 76%, rgba(255,134,124,0.6) 24%);
-    
-/* background: rgba(255,251,250,1);
-background: -moz-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,251,250,1)), color-stop(72%, rgba(255,251,250,1)), color-stop(79%, rgba(255,180,173,1)), color-stop(86%, rgba(255,180,173,1)), color-stop(93%, rgba(255,180,173,1)), color-stop(100%, rgba(255,180,173,1)));
-background: -webkit-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
-background: -o-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
-background: linear-gradient(to bottom, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbfa', endColorstr='#ffb4ad', GradientType=0 ); */
-}
+        .thick-highlight-text span {
+            background-color: rgba(255,134,124,0.6);
+            background: linear-gradient(180deg, #fff 76%, rgba(255,134,124,0.6) 24%);
+            
+        /* background: rgba(255,251,250,1);
+        background: -moz-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,251,250,1)), color-stop(72%, rgba(255,251,250,1)), color-stop(79%, rgba(255,180,173,1)), color-stop(86%, rgba(255,180,173,1)), color-stop(93%, rgba(255,180,173,1)), color-stop(100%, rgba(255,180,173,1)));
+        background: -webkit-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
+        background: -o-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
+        background: -ms-linear-gradient(top, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
+        background: linear-gradient(to bottom, rgba(255,251,250,1) 0%, rgba(255,251,250,1) 72%, rgba(255,180,173,1) 79%, rgba(255,180,173,1) 86%, rgba(255,180,173,1) 93%, rgba(255,180,173,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbfa', endColorstr='#ffb4ad', GradientType=0 ); */
+        }
 
 
-.links-navigation{
-    font-weight: 700;
-    font-size: 1.125rem;
-    color: #439889;
-    text-decoration: none;
-    display: block;
-    text-align-last: right;
-    padding: 20px;
-}
+/* Links navegación home */
+
+    .links-navigation {
+        font-weight: 700;
+        font-size: 1.125rem;
+        color: #439889;
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+        text-align: right;
+    }
+
+    .links-navigation img {
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+
+    .links-navigation span:hover {
+        border-bottom: 3px solid  rgba(0,152,137,0.3);
+    }
 
 
-.links-navigation span:hover {
-    /* background-color: rgba(255,134,124,0.2); */
-    border-bottom: 3px solid  rgba(0,152,137,0.3);
+/* Estilos Sección "Viajes recomendados" */
 
+    .viajes {
+        background-color: rgba(0,152,137,0.1);
+    }
 
-}
+    .viajes h3 {
+        margin-bottom: 10px;
+    }
 
-
-/* Estilos viajes */
-.viajes{
-    background-color: rgba(0,152,137,0.1);
-    /* display: flex;
-    align-content: space-between;
-    flex-wrap: wrap; */
-}
-
-.cards-container {
-    display: flex;
-    align-content: space-between;
-    flex-wrap: wrap;
-}
-
+    .cards-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
 
 /* Estilos cards */
 
-.card{
-    width: 328px;
-    margin: 30px auto;
-    background-color:#fff;
-    padding-bottom: 20px;
+    .card {
+        margin: 10px 0;
+        background-color:#fff;
+        padding-bottom: 20px;
+    }
+
+    .card:first-child {
+        margin-top: 0;
+    }
+
+    .card p {
+        padding: 10px 10px 10px 20px;
+    }
+
+    .card-img-wrapper {
+        padding: 8px;
+        padding-bottom: 0;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card-title {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+        background-color: rgba(255,134,124,0.6);
+        width: 70%;
+        padding: 5px 0 5px 20px;
+    }
+
+    .card-subtitle span {
+        font-style: italic;
+    }
+
+    .card-date {
+        font-size: 0.8rem;
+    }
+
+    .card-price {
+        margin-top: 10px;
+        text-align: right;    
+    }
+
+    .card-desde {
+        display: inline;
+        font-size: 0.750rem;
+        font-weight: 700;
+        padding-right: 4px;
+    }
+
+    .card-button {
+        display: inline;
+        background-color: #00695C;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 8px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        letter-spacing: 0.05rem;
+    }
+
+    .card-button:hover {
+        background: #439889;
+        cursor: pointer;
+    }
+
+/* Estilos Footer */
+
+    footer {
+        padding: 30px;
+        text-align: center;
+    }
+
+    footer ul {
+        display: flex;
+        align-content: space-between;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    footer ul li {
+        list-style-type: none;
+        margin: 0 auto;
+    }
+
+    footer img {
+        width: 30px;
+    }
+
+    .copyright {
+        font-size: 0.75rem;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:320px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .hero-image {
+        background-size: cover;
+    }
+
+    .card, .card:first-child {
+        margin: 1%;
+        width: 48%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .home-icons img {
+        margin: 20px 30px;
+    }
+
+    .links-navigation {
+        text-align: center;
+    }
+
+    .card, .card:first-child {
+        width: 31%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .card, .card:first-child {
+        margin: 1%;
+        width: 23%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .home-icons {
+        max-width: 800px;
+    }
+
+    .home-icons img {
+        margin: 20px 50px;
+    }
+
+    .card, .card:first-child {
+        width: 240px;
+    }
+}
+
+/* Media Queries para el menú responsive para móvil (Podemos cambiar los 600px a la medida que queramos */
+    @media screen and (max-width:600px ) {
+        header nav {
+            width: 100%;
+            height: 100%;
+            left: 100%;
+            margin: 0;
+            position: fixed;
+            background: #fff;
+            text-align: left;
+        }
     
-}
+        header nav ul li {
+            display: block;
+        }
+    
+        .menu_bar {
+            display: block;
+            width: 100%;
+        }
 
-.card p{
-    padding: 10px 10px 10px 20px;
-}
+        .menu_bar .izquierda {
+            float: left;
+        }
 
-.card img{
-    /* border: 1px solid black; */
-    width: 94%;
-    margin: 8px;
-}
-
-.card-title{
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 1.500rem;
-    background-color: rgba(255,134,124,0.6);
-    width: 70%;
-    padding: 5px 0 5px 20px;
-}
-.card-subtitle{
-    font-size: 1.250rem;
-
-}
-.card-subtitle span{
-    font-style: italic;
-}
-
-.card-desde{
-    display: inline;
-    font-size: 0.750rem;
-    font-weight: 700;
-}
-
-.card-button{
-    display: inline;
-    background-color: #00695C;
-    border: none;
-    color: white;
-    font-size: 1.500rem;
-    font-weight: bold;
-    padding: 8px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    letter-spacing: 0.05rem;
-}
-
-.card-price {
-    text-align: right;    
-}
-
-
-footer {
-    /* background-color: #00695C; */
-    padding: 30px;
-    text-align: center;
-    /* margin: 20px auto; */
-    /* display: inline; */
-}
-footer ul {
-    display: flex;
-    align-content: space-between;
-    /* flex-wrap: wrap; */
-    /* border: 1px solid blue; */
-}
-footer ul li {
-    display: inline-block;
-    margin: 0 auto;
-    /* margin-right: 30px; */
-    /* width: 30px; */
-    /* border: 1px solid black; */
-}
-
-footer a{
-    /* border: 1px solid green; */
-    /* width: 50px; */
-
-}
-footer img{
-    width: 30px;
-}
-
-.copyright {
-    font-size: 0.75rem;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-
- /* Media Queries para el menú responsive para móvil (Podemos cambiar los 600px a la medida que queramos */
- @media screen and (max-width:600px ) {
-	header nav {
-		width: 100%;
-		height: 100%;
-		left: 100%;
-		margin: 0;
-        position: fixed;
-        background: #fff;
-        text-align: left;
-	}
+        .menu_bar .derecha {
+            float: right;
+        }
  
-    header nav ul li {
-		display: block;
-	}
- 
-	.menu_bar {
-		display: block;
-		width: 100%;
+        .menu_bar .bt-menu {
+            display: block; 
+            text-align: right;
+            padding: 15px;
+            background: #FFF;
+            color: #00695C;
+            text-decoration: none;
+        }
     }
-
-    .menu_bar .izquierda{
-        float: left;
-    }
-
-    .menu_bar .derecha{
-        float: right;
-    }
-  
-    /* .menu_bar{
-        text-align: right;
-    } */
- 
-	.menu_bar .bt-menu {
-        display: block; 
-        text-align: right;
-		padding: 15px;
-		background: #FFF;
-		color: #00695C;
-		text-decoration: none;
-	}
-}
