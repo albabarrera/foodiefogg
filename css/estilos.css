@@ -223,6 +223,7 @@ font-family: 'Playfair Display', serif; */
 
     .viajes h3 {
         margin-bottom: 10px;
+        margin-top: -10px;
     }
 
     .cards-container {
@@ -398,6 +399,7 @@ font-family: 'Playfair Display', serif; */
             position: fixed;
             background: #fff;
             text-align: left;
+            z-index: 1;
         }
     
         header nav ul li {
