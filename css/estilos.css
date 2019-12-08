@@ -78,7 +78,7 @@ font-family: 'Playfair Display', serif; */
 /* Estilos Hero-image de la home y búsqueda */
 
     .hero-image {
-        background: url('../img/julien-sarazin-n3mK4n_nF7g-unsplash.jpg') no-repeat center center;
+        background: url('../img/hero-image.jpg') no-repeat center center;
         background-size: 200%;
         width: 100%;
         height: 50vh;
